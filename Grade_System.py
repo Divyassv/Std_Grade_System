@@ -14,7 +14,7 @@ def calculate_grade(mark):
 
 
 
-mark = input("Enter your Marks: ")
+mark = input("Enter your Mark: ")
 try:
     grade = calculate_grade(float(mark))
     print(f"Mark: {mark} Your Grade is: {grade}")
